@@ -42,16 +42,17 @@ p {
     height: 300px;
     width: 0px;
     
-    margin: 300px 0 0 400px ;
+    margin: 15% 0 0 35% ;
     
 }
 
 .jaune{
     position: absolute;
-    height: 300px;
+    height: 250px;
     background: #ffec18;
     width: 550px;
     right: 0;
+    bottom: 0;
     
 }
 
