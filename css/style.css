@@ -73,7 +73,11 @@ p {
 
 }
 
-.round {
+/*NAME*/
+
+/*SCALE START*/
+
+.roundR {
 
     position: absolute;
     top: 0;
@@ -86,10 +90,34 @@ p {
     z-index: 99;
 }
 
+.roundJ {
 
-/*NAME*/
+    position: absolute;
+    top: 0;
+    height: 10px;
+    transform: scale(650);
+    background: #ffce71;
+    width: 10px;
+    border-radius: 100%;
+    transform: scale();
+    z-index: 100;
+}
 
-/*TRAIT*/
+.roundV {
+
+    position: absolute;
+    top: 0;
+    height: 10px;
+    transform: scale(650);
+    background: #50ddc8;
+    width: 10px;
+    border-radius: 100%;
+    transform: scale();
+    z-index: 99;
+}
+
+/*SCALE START*/
+
 
 .pink{
     

@@ -1,12 +1,13 @@
 
 
-
-
-
-
-
-
-TweenMax.to(".round", 0.8, { css:{scale:0} , onComplete:function(){   
+TweenMax.to(".roundJ", 0.4, { css:{scale:0}, onComplete:function(){
+    
+    
+    TweenMax.to(".roundV", 0.4, { css:{scale:0}, onComplete:function(){
+        
+        
+       
+TweenMax.to(".roundR", 0.4, { css:{scale:0} , onComplete:function(){   
 TweenMax.to(".vert", 0.5, {width:"600px", onComplete: function(){
     
     TweenMax.to(".jaune", 0.5, {width:"500px", onComplete: function(){
@@ -36,4 +37,13 @@ TweenMax.to(".vert", 0.5, {width:"600px", onComplete: function(){
 
     
 
-} });
+} }) 
+        
+        
+    }})
+    
+}});
+
+
+
+
