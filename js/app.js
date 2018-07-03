@@ -1,1 +1,1 @@
-TweenMax.to(".maskTxt", 2, { width:"100%" }  );
+TweenMax.to(".maskTxt", 5, { width:"100%" }  );
