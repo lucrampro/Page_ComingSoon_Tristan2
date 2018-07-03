@@ -1,1 +1,6 @@
-TweenMax.to(".maskTxt", 5, { width:"100%" }  );
+TweenMax.to(".maskTxt", 1, { width:"550px", onComplete:function(){
+    
+    
+    TweenMax.to(".jaune", 0.5, { width:0});
+    
+} }  );

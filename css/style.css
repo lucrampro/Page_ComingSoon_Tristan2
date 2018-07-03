@@ -25,24 +25,34 @@ body {
 
 p {
    
-   margin-top: 100px;
+   margin: 0;
     font-size: 20rem;
-    text-shadow: 1px 1px 4px #343434;
+   color: #343434;
     text-align: center;
-    -ms-transform: rotate(340deg);
-    /* IE 9 */
-    -webkit-transform: rotate(340deg);
-    /* Safari 3-8 */
-    transform: rotate(340deg);
-    width: 100%;
-    height: 300px;
+
+    
+
+
     
 }
 
 .maskTxt{
-    
+    position: relative;
     overflow: hidden;
-    height: 100%;
-    width: 0;
+    height: 300px;
+    width: 0px;
+    
+    margin: 300px 0 0 400px ;
+    
 }
+
+.jaune{
+    position: absolute;
+    height: 300px;
+    background: #ffec18;
+    width: 550px;
+    right: 0;
+    
+}
+
 
