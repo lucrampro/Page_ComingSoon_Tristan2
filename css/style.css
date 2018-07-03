@@ -171,7 +171,26 @@ p {
 }
 
 
+/*TRISTAN*/
 
+.GostTristan{
+    
+    overflow: hidden;
+        position: absolute;
+    bottom: 0;
+    width: 0px;
+    height: 100%;
+    
+}
+
+
+.tristan{
+    
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+    
+}
 
 
 
