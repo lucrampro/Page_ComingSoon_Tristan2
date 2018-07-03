@@ -23,7 +23,7 @@ TweenMax.to(".vert", 0.5, {width:"600px", onComplete: function(){
     
     
     TweenMax.to(".black", 0.4, { width:0});
-    TweenMax.to(".GostTristan", 0.5, { width:"500px", delay:0.4});
+    TweenMax.to(".GostTristan", 0.5, { width:"700px", delay:0.4});
     
     
 } }  )
