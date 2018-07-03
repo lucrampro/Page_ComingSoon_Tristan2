@@ -183,14 +183,31 @@ p {
     
 }
 
-
 .tristan{
+    
+    position: absolute;
+    bottom: 0;
+    height: 700px;
+    
+}
+
+
+@media all and (min-width: 1400px){
+    
+    
+   .tristan{
     
     position: absolute;
     bottom: 0;
     width: 500px;
     
+} 
+    
+    
+    
 }
+
+
 
 
 
