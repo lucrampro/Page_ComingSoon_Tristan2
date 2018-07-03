@@ -9,14 +9,9 @@
 
 /* ///// BODY ///// */
 
-html {
-
-    height: 100%;
-}
-
 body {
 
-    height: 80%;
+    height: 100%;
     color: white;
     font-family: "Moonstruck";
     background-image: url(../img/background.png);
@@ -24,36 +19,47 @@ body {
 }
 
 p {
-   
-   margin: 0;
+
+    margin: 0;
     font-size: 20rem;
-   color: #343434;
+    color: #50ddc8;
     text-align: center;
 
-    
 
 
-    
+
+
 }
 
-.maskTxt{
+.maskTxt {
     position: relative;
     overflow: hidden;
     height: 300px;
-    width: 0px;
-    
-    margin: 15% 0 0 35% ;
-    
+    width: 0;
+
+    margin: 15% 0 0 35%;
+
 }
 
-.jaune{
+.jaune {
     position: absolute;
     height: 250px;
-    background: #ffec18;
+    background: #ffce71;
     width: 550px;
     right: 0;
     bottom: 0;
-    
+
 }
 
+.round {
 
+    position: absolute;
+    top: 0;
+    height: 10px;
+    transform: scale(650);
+    background: #f59096;
+    width: 10px;
+    border-radius: 100%;
+    transform: scale();
+    z-index: 99;
+}
