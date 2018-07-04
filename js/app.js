@@ -9,16 +9,16 @@ TweenMax.to(".jaune", 0.5, {width:"500px", delay: 0.1});
 TweenMax.to(".pink", 0.5, {width:"500px", delay: 0.2, onComplete:function(){
     
     
-TweenMax.to(".maskTxt", 0.8, {height:"300px", onComplete:function(){
+TweenMax.to(".maskTxt", 0.8, {height:"300px"});
     
     
     
-      TweenMax.to(".GostTristan", 0.5, { width:"700px"});
+      TweenMax.to(".GostTristan", 0.6, { height:"100%", delay:0.2});
     
     
     
     
-}});
+
     
     
     

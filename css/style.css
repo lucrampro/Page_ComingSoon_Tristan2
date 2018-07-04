@@ -24,6 +24,7 @@ p {
     font-size: 20rem;
     color: #343434;
     text-align: center;
+    text-shadow: 2px 2px #fefefe;
 
 
 }
@@ -34,7 +35,7 @@ p {
     overflow: hidden;
     height: 0px;
     width: 550px;
-    z-index: 5;
+    z-index: 2;
     margin: 15% 0 0 25%;
 
 }
@@ -50,7 +51,7 @@ p {
     position: relative;
     overflow: hidden;
     height: 0px;
-    width: 500px;
+    width: 600px;
 
     margin: 12% 0 0 35%;
 
@@ -88,7 +89,7 @@ p {
     width: 10px;
     border-radius: 100%;
     transform: scale();
-    z-index: 99;
+    z-index: 3;
 }
 
 .roundJ {
@@ -102,7 +103,7 @@ p {
     width: 10px;
     border-radius: 100%;
     transform: scale();
-    z-index: 100;
+    z-index: 5;
 }
 
 .roundV {
@@ -116,7 +117,7 @@ p {
     width: 10px;
     border-radius: 100%;
     transform: scale();
-    z-index: 99;
+    z-index: 4;
 }
 
 /*SCALE START*/
@@ -181,8 +182,9 @@ p {
     overflow: hidden;
         position: absolute;
     bottom: 0;
-    width: 0px;
-    height: 100%;
+    width: 1200px;
+    height: 0%;
+    
     
 }
 
@@ -191,6 +193,7 @@ p {
     position: absolute;
     bottom: 0;
     height: 700px;
+    
     
 }
 
@@ -209,7 +212,9 @@ p {
     
     position: absolute;
     bottom: 0;
-    height: 1000px;
+    height: 700px;
+    left: 60%;
+
 
     
 } 
