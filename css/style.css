@@ -9,12 +9,13 @@
 
 /* ///// BODY ///// */
 
-body {
+ html {
 
     height: 100%;
     color: white;
     font-family: "Moonstruck";
     background-image: url(../img/background.png);
+
 
 }
 
@@ -25,18 +26,22 @@ p {
     color: #343434;
     text-align: center;
     text-shadow: 2px 2px #fefefe;
+    width: 100%;
 
 
 }
 /* NAME*/
 
 .maskTxt {
-    position: relative;
+    position: absolute;
     overflow: hidden;
     height: 0px;
-    width: 550px;
+    width: 100%;
     z-index: 2;
-    margin: 15% 0 0 25%;
+top: 35%;
+    transform: translateY(-50%);
+
+ 
 
 }
 
@@ -48,12 +53,13 @@ p {
     
     
 .maskTxt {
-    position: relative;
+    position: absolute;
     overflow: hidden;
     height: 0px;
-    width: 600px;
-
-    margin: 12% 0 0 35%;
+    width: 100%;
+    z-index: 2;
+top: 35%;
+    transform: translateY(-50%);
 
 }
   
@@ -61,18 +67,6 @@ p {
     
 }
 
-
-
-
-.black {
-    position: absolute;
-    height: 250px;
-    background: #343434;
-    width: 550px;
-    right: 0;
-    bottom: 0;
-
-}
 
 /*NAME*/
 
@@ -125,7 +119,7 @@ p {
 
 .pink{
     
-   width: 0; 
+    width: 0; 
     position: absolute;
     top: 20%;
     left: 40%;
@@ -144,7 +138,7 @@ p {
     
    width: 0; 
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 40%;
     overflow: hidden;
     
@@ -159,9 +153,9 @@ p {
 
 .vert{
     
-   width: 0; 
+    width: 0; 
     position: absolute;
-    top: 25%;
+    top: 23%;
     left: 40%;
     overflow: hidden;
     
@@ -180,7 +174,7 @@ p {
 .GostTristan{
     
     overflow: hidden;
-        position: absolute;
+    position: absolute;
     bottom: 0;
     width: 1200px;
     height: 0%;
@@ -192,8 +186,9 @@ p {
     
     position: absolute;
     bottom: 0;
-    height: 700px;
-    
+    height: 450px;
+    left: 55%;
+    transform: translateX(-55%);
     
 }
 
@@ -201,19 +196,12 @@ p {
 @media all and (min-width: 1400px){
     
     
-    
-    
-    
-    
-    
-    
-    
+
    .tristan{
-    
-    position: absolute;
-    bottom: 0;
-    height: 700px;
-    left: 60%;
+ 
+    height: 600px;
+    left: 65%;
+    transform: translateX(0);
 
 
     
